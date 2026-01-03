@@ -547,8 +547,8 @@ app.get('*', (req, res) => {
   }
   
   // THE FIXED RESPONSE - PROPERLY CLOSED TEMPLATE LITERAL
-  res.send(`
-<!DOCTYPE html>
+  
+  res.send(`<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -584,6 +584,14 @@ app.get('*', (req, res) => {
                 MagicPro by Zaza
             </h1>
             <p class="mt-4 text-gray-400">Initializing quantum email matrix...</p>
+        </div>
+
+        <!-- Login screen -->
+        <div id="login" class="hidden flex-col items-center justify-center min-h-screen">
+            <h2 class="text-3xl font-bold mb-4">Login</h2>
+            <input type="text" placeholder="Username" class="mb-2 p-2 rounded text-black">
+            <input type="password" placeholder="Password" class="mb-4 p-2 rounded text-black">
+            <button class="px-4 py-2 bg-purple-500 text-white rounded">Sign In</button>
         </div>
     </div>
 </body>
