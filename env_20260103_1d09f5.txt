@@ -1,0 +1,11 @@
+# MagicPro Configuration
+MAGIC_KEY=magicpro-secure-key-2024
+ADMIN_PASS=magicpro2024
+
+# Server
+PORT=3000
+NODE_ENV=production
+
+# Optional: Additional SMTP Providers
+# ELASTIC_EMAIL_KEY=your-key
+# SENDGRID_API_KEY=your-key
