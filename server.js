@@ -585,6 +585,10 @@ app.get('*', (req, res) => {
             </h1>
             <p class="mt-4 text-gray-400">Initializing quantum email matrix...</p>
         </div>
+    </div>
+</body>
+</html>
+`);
 
         <!-- Login Screen -->
         <div id="login" class="hidden flex-col items-center justify-center min-h-screen">
